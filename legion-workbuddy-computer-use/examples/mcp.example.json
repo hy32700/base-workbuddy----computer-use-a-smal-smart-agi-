@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "desktop-coordinator": {
+      "type": "stdio",
+      "command": "C:/projects/legion-workbuddy-computer-use/.venv/Scripts/python.exe",
+      "args": [
+        "C:/projects/legion-workbuddy-computer-use/vision-server/server.py"
+      ],
+      "defer_loading": false
+    },
+    "computer-control": {
+      "type": "stdio",
+      "command": "C:/projects/legion-workbuddy-computer-use/.venv/Scripts/python.exe",
+      "args": [
+        "C:/projects/legion-workbuddy-computer-use/computer-control-server/server.py"
+      ],
+      "defer_loading": false
+    }
+  }
+}
